@@ -1,0 +1,17 @@
+{
+  "name": "klarna-widget",
+  "vendor": "drimjuguetes",
+  "version": "0.1.25",
+  "title": "Klarna Widget",
+  "description": "Drim.es",
+  "author": "Antonio Ansio",
+  "builders": {
+    "react": "3.x",
+    "pixel": "0.x",
+    "store": "0.x"
+  },
+  "dependencies": {
+    "vtex.product-context": "0.x"
+  },
+  "$schema": "https://raw.githubusercontent.com/vtex/node-vtex-api/master/gen/manifest.schema"
+}
