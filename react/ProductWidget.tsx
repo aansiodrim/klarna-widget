@@ -1,7 +1,7 @@
 import React, { useContext } from 'react'
 import { ProductContext } from 'vtex.product-context'
 
-const Widget: StorefrontFunctionComponent = () => {
+const ProductWidget: StorefrontFunctionComponent = () => {
 
   const { selectedItem } = useContext(ProductContext)
   const commercialOffer = selectedItem?.sellers[0]?.commertialOffer
@@ -13,4 +13,4 @@ const Widget: StorefrontFunctionComponent = () => {
   )
 }
 
-export default Widget
+export default ProductWidget

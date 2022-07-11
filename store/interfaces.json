@@ -1,6 +1,10 @@
 {
   "klarna-product-widget": {
-    "component": "Widget",
+    "component": "ProductWidget",
+    "composition": "children"
+  },
+  "klarna-landing-page": {
+    "component": "LandingPage",
     "composition": "children"
   }
 }
